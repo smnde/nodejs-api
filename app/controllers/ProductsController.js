@@ -1,4 +1,4 @@
-import Product from "../models/ProductModel.js";
+import Product from "node-auth/ProductModel";
 
 const getProducts = async (req, res) => {
 	await Product.find()

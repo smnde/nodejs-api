@@ -21,13 +21,20 @@
   },
   "exports": {
     ".": "./index.js",
+
     "./app": "./config/app.js",
     "./db": "./config/db.js",
+
     "./api": "./routes/api.js",
     "./web": "./routes/web.js",
+
     "./UserModel": "./app/models/UserModel.js",
-    "./UsersController": "./app/controllers/UsersController.js",
+	"./ProductModel": "./app/models/ProductModel.js",
+
     "./LoginController": "./app/controllers/LoginController.js",
+    "./UsersController": "./app/controllers/UsersController.js",
+	"./ProductsController": "./app/controllers/ProductsController.js",
+
 	"./Authenticated": "./app/middleware/Authenticated.js"
   }
 }

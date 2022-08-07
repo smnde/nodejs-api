@@ -15,7 +15,7 @@ import {
 	storeProduct,
 	updateProduct,
 	destroyProduct,
-} from "../app/controllers/ProductsController.js";
+} from "node-auth/ProductsController";
 
 
 const route = express.Router();
